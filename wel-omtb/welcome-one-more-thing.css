@@ -1,0 +1,549 @@
+.welcome-one-more-thing-child {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: var(--color-crimson-100);
+  height: 203px;
+}
+.important-do-not3 {
+  margin-block-start: 0;
+  margin-block-end: 10px;
+}
+.clicking-your-back3 {
+  margin: 0;
+  font-size: var(--font-size-lg);
+}
+.important-do-not-container7 {
+  width: 100%;
+}
+.important-do-not-container6,
+.one-more-thing {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.important-do-not-container6 {
+  top: calc(50% - 8196.5px);
+  left: calc(50% - 150px);
+  color: var(--color-white);
+  width: 299px;
+  font-size: var(--h3-desktop-size);
+}
+.one-more-thing {
+  top: calc(50% - 7971.5px);
+  left: calc(50% - 148px);
+  font-size: var(--font-size-9xl);
+  font-weight: 800;
+  justify-content: center;
+  width: 296px;
+  height: 106px;
+}
+.welcome-one-more-thing-item {
+  position: absolute;
+  top: 384px;
+  left: calc(50% - 154px);
+  box-shadow: 0 4px 8px 1px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-6xs);
+  background-color: var(--color-white);
+  width: 308px;
+  height: 15518px;
+}
+.ever {
+  text-decoration: underline;
+}
+.and-all-you1,
+.and-i-dont-container,
+.how-can-i {
+  position: absolute;
+  top: 4803px;
+  left: calc(50% - 143px);
+  line-height: 33px;
+  font-weight: 800;
+  color: var(--color-crimson-100);
+  display: flex;
+  align-items: center;
+  width: 286px;
+}
+.and-all-you1,
+.how-can-i {
+  top: 2810px;
+  left: calc(50% - 137px);
+  justify-content: center;
+  width: 274px;
+}
+.and-all-you1 {
+  top: 1975px;
+  left: calc(50% - 142px);
+  width: 284px;
+}
+.one-last-thing {
+  margin-block-start: 0;
+  margin-block-end: 1px;
+}
+.and-you-will,
+.last-step {
+  font-family: var(--font-open-sans);
+}
+.last-step {
+  text-decoration: underline;
+}
+.while-you-are {
+  margin: 0;
+}
+.and-now-were,
+.one-last-thing-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.one-last-thing-container {
+  top: 408px;
+  left: calc(50% - 137px);
+  font-size: var(--font-size-base);
+  line-height: 27px;
+  text-align: left;
+  width: 274px;
+  font-family: var(--font-open-sans);
+}
+.and-now-were {
+  top: 1271px;
+  left: calc(50% - 148px);
+  line-height: 33px;
+  font-weight: 800;
+  color: var(--color-crimson-100);
+  justify-content: center;
+  width: 296px;
+}
+.it-really-is-container,
+.you-see-once-container {
+  position: absolute;
+  top: 1471px;
+  left: calc(50% - 137px);
+  font-size: var(--font-size-base);
+  line-height: 27px;
+  font-family: var(--font-open-sans);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 274px;
+}
+.it-really-is-container {
+  top: 2109px;
+}
+.now-it-wasnt {
+  font-weight: 700;
+}
+.because-weve-had-container,
+.you-see-the-container {
+  position: absolute;
+  top: 2944px;
+  left: calc(50% - 137px);
+  font-size: var(--font-size-base);
+  line-height: 27px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 274px;
+  font-family: var(--font-open-sans);
+}
+.you-see-the-container {
+  top: 4937px;
+}
+.so-i-decided3 {
+  top: 5831px;
+  left: calc(50% - 156px);
+  line-height: 33px;
+  font-weight: 800;
+  color: var(--color-crimson-100);
+  justify-content: center;
+  width: 305px;
+}
+.i-wanted-to-container,
+.so-i-decided3,
+.so-now-im {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.i-wanted-to-container {
+  top: 5998px;
+  left: calc(50% - 137px);
+  font-size: var(--font-size-base);
+  line-height: 27px;
+  font-family: var(--font-open-sans);
+  text-align: left;
+  width: 274px;
+}
+.so-now-im {
+  top: 7500px;
+  left: calc(50% - 140px);
+  line-height: 33px;
+  font-weight: 800;
+  color: var(--color-crimson-100);
+  justify-content: center;
+  width: 279px;
+}
+.it-will-ensure {
+  font-weight: 700;
+  font-family: var(--font-open-sans);
+}
+.its-called-the-container {
+  top: 7799px;
+  left: calc(50% - 137px);
+  font-size: var(--font-size-base);
+  line-height: 27px;
+  text-align: left;
+  width: 274px;
+  font-family: var(--font-open-sans);
+}
+.and-with-this,
+.its-called-the-container,
+.take-a-moment-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.and-with-this {
+  top: 8969px;
+  left: calc(50% - 142px);
+  line-height: 33px;
+  font-weight: 800;
+  color: var(--color-crimson-100);
+  justify-content: center;
+  width: 283px;
+}
+.take-a-moment-container {
+  top: 9202px;
+  left: calc(50% - 137px);
+  font-size: var(--font-size-base);
+  line-height: 27px;
+  text-align: left;
+  width: 274px;
+  font-family: var(--font-open-sans);
+}
+.this-is-something-container {
+  position: absolute;
+  top: 11293px;
+  left: calc(50% - 143px);
+  line-height: 33px;
+  font-weight: 800;
+  color: var(--color-crimson-100);
+  display: flex;
+  align-items: center;
+  width: 286px;
+}
+.and-it-breaks-container {
+  top: 11427px;
+  left: calc(50% - 137px);
+  font-size: var(--font-size-base);
+  line-height: 27px;
+  font-family: var(--font-open-sans);
+  text-align: left;
+  width: 274px;
+}
+.all-you-have3,
+.and-it-breaks-container,
+.just-say-maybe-container {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.all-you-have3 {
+  top: 12902px;
+  left: calc(50% - 145px);
+  line-height: 33px;
+  font-weight: 800;
+  color: var(--color-crimson-100);
+  justify-content: center;
+  width: 290px;
+}
+.just-say-maybe-container {
+  top: 13102px;
+  left: calc(50% - 137px);
+  font-size: var(--font-size-base);
+  line-height: 27px;
+  font-family: var(--font-open-sans);
+  text-align: left;
+  width: 274px;
+}
+.congratulations-your-order3,
+.for-the-forever {
+  position: absolute;
+  left: calc(50% - 146px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 292px;
+}
+.congratulations-your-order3 {
+  top: 14293px;
+  line-height: 33px;
+  font-weight: 800;
+  color: var(--color-crimson-100);
+}
+.for-the-forever {
+  top: 14415px;
+  font-size: var(--font-size-lg);
+  line-height: 27px;
+}
+.error-fill-icon10,
+.error-fill-icon11,
+.error-fill-icon9 {
+  position: absolute;
+  top: 14994px;
+  left: calc(50% - 115px);
+  width: 15px;
+  height: 15px;
+  overflow: hidden;
+}
+.error-fill-icon10,
+.error-fill-icon11 {
+  top: 15097px;
+}
+.error-fill-icon11 {
+  top: 15050px;
+}
+.worrying-if-you {
+  width: 268px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.worrying-if-you-can-keep-your-wrapper {
+  position: absolute;
+  top: 14512px;
+  left: calc(50% - 144px);
+  border-radius: var(--br-10xs);
+  background-color: var(--color-crimson-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-3xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.click-here-to {
+  position: relative;
+}
+.click-here-to-decline-this-off-wrapper {
+  text-decoration: none;
+  top: 14829px;
+  left: calc(50% - 144px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-10xs);
+  background-color: var(--color-darkgray);
+  overflow: hidden;
+  flex-direction: row;
+  padding: 18px var(--padding-6xl);
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+}
+.click-here-to-decline-this-off-wrapper,
+.missing-out-on3,
+.the-hard-way {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.the-hard-way {
+  top: 14783px;
+  left: calc(50% - 118px);
+  font-size: var(--font-size-3xl);
+  width: 237px;
+}
+.missing-out-on3 {
+  top: 14921px;
+  left: calc(50% - 123px);
+  line-height: 27px;
+  width: 246px;
+}
+.always-having-to,
+.deep-down-knowing,
+.never-truly-being {
+  position: absolute;
+  top: 14990px;
+  left: calc(50% - 94px);
+  font-size: var(--font-size-sm);
+  line-height: 22px;
+  display: flex;
+  text-align: left;
+  align-items: center;
+  width: 209px;
+}
+.always-having-to,
+.deep-down-knowing {
+  top: 15096px;
+  left: calc(50% - 93px);
+}
+.always-having-to {
+  top: 15043px;
+  left: calc(50% - 94px);
+  width: 211px;
+}
+.order-now12 {
+  position: relative;
+  font-weight: 800;
+}
+.order-now-wrapper9,
+.receive-your-weal-prosperity-wrapper {
+  position: absolute;
+  border-radius: var(--br-10xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.order-now-wrapper9 {
+  text-decoration: none;
+  top: 15510px;
+  left: calc(50% - 143px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-goldenrod);
+  padding: var(--padding-4xs) 55px;
+  font-size: var(--font-size-11xl);
+  color: inherit;
+}
+.receive-your-weal-prosperity-wrapper {
+  top: 15155px;
+  left: calc(50% - 144px);
+  background-color: var(--color-crimson-100);
+  padding: var(--padding-xs) var(--padding-3xs);
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.completing-this-means3,
+.the-easy-way-container {
+  position: absolute;
+  left: calc(50% - 118px);
+  display: flex;
+  align-items: center;
+  width: 237px;
+}
+.completing-this-means3 {
+  top: 15602px;
+  font-size: 26px;
+  line-height: 27px;
+  justify-content: center;
+}
+.the-easy-way-container {
+  top: 15423px;
+  font-size: var(--font-size-3xl);
+  font-weight: 800;
+  color: var(--color-green);
+}
+.check-circle-fill-icon9 {
+  width: 15px;
+  position: relative;
+  height: 15px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.check-circle-fill-parent7 {
+  position: absolute;
+  top: 15671px;
+  left: calc(50% - 114px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+}
+.having-gods-guidance {
+  width: 209px;
+  position: relative;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.check-circle-fill-parent8 {
+  position: absolute;
+  top: 15799px;
+  left: calc(50% - 114px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+}
+.seeing-your-family {
+  width: 211px;
+  position: relative;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.check-circle-fill-parent9 {
+  position: absolute;
+  top: 15724px;
+  left: calc(50% - 114px);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-7xs);
+  text-align: left;
+  font-size: var(--font-size-sm);
+}
+.pexels-andrea-piacquadio-37726-icon,
+.pexels-pixabay-39691-icon {
+  position: absolute;
+  top: 14595px;
+  left: calc(50% - 125px);
+  border-radius: var(--br-9xs);
+  width: 250px;
+  height: 174.7px;
+  object-fit: cover;
+}
+.pexels-pixabay-39691-icon {
+  top: 15236px;
+  height: 166.7px;
+}
+.here {
+  color: inherit;
+}
+.results-from-our-container6 {
+  position: absolute;
+  bottom: 28px;
+  left: calc(50% - 149px);
+  font-size: 10px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  width: 297px;
+}
+.welcome-one-more-thing {
+  width: 100%;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #f3f3f3;
+  height: 16415px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--h3-desktop);
+}
+@media screen and (max-width: 1200px) {
+  .welcome-one-more-thing-item {
+    width: 315px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .welcome-one-more-thing-item {
+    width: 315px;
+  }
+}
