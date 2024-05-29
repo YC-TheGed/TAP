@@ -1,0 +1,378 @@
+.container {
+  overflow: hidden; /* Hide overflow content */
+  transition: height 1s; /* Smooth transition for height change */
+  height: 1px; /* Initially set the height of the container */
+}
+
+.delayed-section {
+  max-height: 200px; /* Set a maximum height for the delayed section */
+  opacity: 0; /* Initially hide the delayed section */
+  visibility: hidden; /* Initially hide the delayed section */
+  transition: opacity 1s, visibility 1s; /* Smooth transition for opacity and visibility */
+}
+
+.container.show-delayed-section {
+  height: 200px; /* Expand the container to reveal the delayed section */
+}
+
+.container.show-delayed-section .delayed-section {
+  opacity: 1; /* Make the delayed section visible */
+  visibility: visible; /* Make the delayed section visible */
+}
+
+.a-new-documentary,
+.a-new-documentary1,
+.yours-today-for {
+  position: absolute;
+  top: 18px;
+  left: calc(50% - 151px);
+  line-height: 36px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 303px;
+}
+.a-new-documentary1,
+.yours-today-for {
+  top: -380px;
+  left: calc(50% - 463px);
+}
+.yours-today-for {
+  top: 183px;
+  left: calc(50% - 146px);
+  line-height: 35px;
+  color: var(--color-green);
+  width: 292px;
+}
+.order-now {
+  position: relative;
+  line-height: 60px;
+  font-weight: 800;
+}
+.order-now-wrapper {
+  text-decoration: none;
+  position: absolute;
+  top: 272px;
+  left: calc(50% - 150px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-10xs);
+  background-color: var(--color-orange-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xs) 50px;
+  font-size: var(--font-size-15xl);
+  color: inherit;
+}
+.original-price-497 {
+  top: 117px;
+  left: calc(50% - 147px);
+  line-height: 60px;
+  width: 295px;
+}
+.original-price-497,
+.the-answered-prayer1,
+.the-holy-way {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.the-answered-prayer1 {
+  top: 382px;
+  left: calc(50% - 154px);
+  line-height: 60px;
+  font-weight: 800;
+  width: 309px;
+}
+.the-holy-way {
+  top: 448px;
+  left: calc(50% - 150px);
+  font-size: 14px;
+  width: 297px;
+}
+.ee97a0ac892-tap-arrowforlp-icon {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 125px);
+  width: 250px;
+  height: 119.4px;
+  object-fit: cover;
+}
+.yours-today-for1 {
+  top: 2386px;
+  left: calc(50% - 146px);
+  line-height: 35px;
+  font-weight: 800;
+  color: var(--color-green);
+  width: 292px;
+}
+.order-now-container,
+.original-price-4971,
+.yours-today-for1 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.order-now-container {
+  text-decoration: none;
+  top: 2475px;
+  left: calc(50% - 155px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-10xs);
+  background-color: var(--color-orange-200);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-36xl);
+  font-size: var(--font-size-15xl);
+  color: inherit;
+}
+.original-price-4971 {
+  top: 2320px;
+  left: calc(50% - 147px);
+  line-height: 60px;
+  width: 295px;
+}
+.ee97a0ac892-tap-arrowforlp-icon1 {
+  position: absolute;
+  top: 2203px;
+  left: calc(50% - 125px);
+  width: 250px;
+  height: 119.4px;
+  object-fit: cover;
+}
+.yours-today-for2 {
+  top: 3437px;
+  left: calc(50% - 146px);
+  line-height: 35px;
+  font-weight: 800;
+  color: var(--color-green);
+  width: 292px;
+}
+.order-now-frame,
+.original-price-4972,
+.yours-today-for2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.order-now-frame {
+  text-decoration: none;
+  top: 3526px;
+  left: calc(50% - 155px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-10xs);
+  background-color: var(--color-orange-200);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-xs) var(--padding-36xl);
+  font-size: var(--font-size-15xl);
+  color: inherit;
+}
+.original-price-4972 {
+  top: 3371px;
+  left: calc(50% - 147px);
+  line-height: 60px;
+  width: 295px;
+}
+.ee4e8020feb-theansweredprayerb-icon,
+.ee97a0ac892-tap-arrowforlp-icon2 {
+  position: absolute;
+  top: 3254px;
+  left: calc(50% - 125px);
+  width: 250px;
+  height: 119.4px;
+  object-fit: cover;
+}
+.ee4e8020feb-theansweredprayerb-icon {
+  top: 532px;
+  height: 330.8px;
+}
+.heres-your-exclusive {
+  position: absolute;
+  top: 896px;
+  left: calc(50% - 157px);
+  font-size: 27px;
+  font-weight: 800;
+  color: #e03f45;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 314px;
+}
+.delay-child,
+.delay-item {
+  position: absolute;
+  top: 993px;
+  left: calc(50% - 154px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-10xs);
+  background-color: var(--color-white);
+  border: 3px solid var(--color-orange-100);
+  box-sizing: border-box;
+  width: 308px;
+  height: 569px;
+}
+.delay-item {
+  top: 1576px;
+  height: 602px;
+}
+.divine-healing-prayer,
+.the-lord-is {
+  position: absolute;
+  top: 1009px;
+  left: calc(50% - 154px);
+  font-size: var(--font-size-11xl);
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 309px;
+}
+.the-lord-is {
+  top: 1117px;
+  left: calc(50% - 133px);
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  width: 266px;
+}
+.blank-line {
+  margin-block-start: 0;
+  margin-block-end: 3px;
+}
+.when-you-listen {
+  margin: 0;
+}
+.divine-healing-prayer-container1 {
+  width: 100%;
+}
+.divine-healing-prayer-container,
+.sacred-gods-divinity {
+  position: absolute;
+  top: 1224px;
+  left: calc(50% - 136px);
+  font-size: var(--font-size-base);
+  display: flex;
+  align-items: center;
+  width: 273px;
+}
+.sacred-gods-divinity {
+  top: 1594px;
+  left: calc(50% - 148px);
+  font-size: var(--font-size-11xl);
+  font-weight: 800;
+  justify-content: center;
+  width: 296px;
+}
+.sacred-gods-divinity-container,
+.the-lord-goes {
+  position: absolute;
+  top: 1785px;
+  left: calc(50% - 133px);
+  font-size: var(--font-size-base);
+  display: flex;
+  align-items: center;
+  width: 267px;
+}
+.the-lord-goes {
+  top: 1702px;
+  left: calc(50% - 140px);
+  font-weight: 500;
+  justify-content: center;
+  width: 280px;
+}
+.delay-inner {
+  position: absolute;
+  top: 2638px;
+  left: calc(50% - 155px);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 6px;
+  background-color: #feeeb6;
+  width: 309px;
+  height: 582px;
+}
+.the-holy-90-day {
+  position: absolute;
+  top: 2747px;
+  left: calc(50% - 149px);
+  font-size: 23px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 298px;
+}
+.try-the-answered {
+  font-family: var(--font-poppins);
+}
+.try-the-answered-container {
+  position: absolute;
+  top: 2842px;
+  left: calc(50% - 144px);
+  font-size: var(--font-size-base);
+  display: flex;
+  align-items: center;
+  width: 289px;
+}
+.money-back-guarantee-graphic {
+  position: absolute;
+  top: 2590px;
+  left: calc(50% - 75px);
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+.delay {
+  position: absolute;
+  top: 819px;
+  left: calc(50% - 157px);
+  width: 314px;
+  height: 3610px;
+  font-size: var(--font-size-9xl);
+}
+.terms-conditions1 {
+  text-decoration: underline;
+}
+.terms-conditions {
+  color: inherit;
+}
+.results-from-our-container {
+  width: 305px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.results-from-our-programs-met-wrapper {
+  position: absolute;
+  width: calc(100% - 1px);
+  right: 0.5px;
+  bottom: 0;
+  left: 0.5px;
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 18px 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  color: var(--color-white);
+}
+.the-answered-prayer {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  height: 5006px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
