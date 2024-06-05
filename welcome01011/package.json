@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "start": "parcel ./*.html ",
-    "build": "parcel build ./*.html  --dist-dir ./build"
+    "build": "parcel build ./*.html  --dist-dir ./build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Yu-Chen Chang",
   "license": "ISC",
