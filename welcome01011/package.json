@@ -6,7 +6,7 @@
     "start": "parcel ./*.html ",
     "build": "parcel build ./*.html  --dist-dir ./build"
   },
-  "author": "",
+  "author": "Yu-Chen Chang",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.7.0"
