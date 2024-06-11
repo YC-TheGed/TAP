@@ -1,378 +1,182 @@
-.container {
-  overflow: hidden; /* Hide overflow content */
-  transition: height 1s; /* Smooth transition for height change */
-  height: 1px; /* Initially set the height of the container */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800;900&display=swap");
+
+#gh {
+  margin-top: 20px;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 30px;
 }
 
-.delayed-section {
-  max-height: 200px; /* Set a maximum height for the delayed section */
-  opacity: 0; /* Initially hide the delayed section */
-  visibility: hidden; /* Initially hide the delayed section */
-  transition: opacity 1s, visibility 1s; /* Smooth transition for opacity and visibility */
+#gurantee {
+  margin-top: 270px;
 }
 
-.container.show-delayed-section {
-  height: 200px; /* Expand the container to reveal the delayed section */
+#gurantee-badge {
+  max-width: 210px;
+  margin-top: -69px;
 }
 
-.container.show-delayed-section .delayed-section {
-  opacity: 1; /* Make the delayed section visible */
-  visibility: visible; /* Make the delayed section visible */
+#bo-sh {
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
-.a-new-documentary,
-.a-new-documentary1,
-.yours-today-for {
-  position: absolute;
-  top: 18px;
-  left: calc(50% - 151px);
-  line-height: 36px;
+#bo-h {
   font-weight: 800;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 303px;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
-.a-new-documentary1,
-.yours-today-for {
-  top: -380px;
-  left: calc(50% - 463px);
+
+#bo1 {
+  border-width: 5px;
+  border-color: orange;
+  border-radius: 7px;
+  border-style: solid;
+  box-shadow: 0 3px 12px 1px gray;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-right: 10px;
 }
-.yours-today-for {
-  top: 183px;
-  left: calc(50% - 146px);
-  line-height: 35px;
-  color: var(--color-green);
-  width: 292px;
+
+#bo2 {
+  border-width: 5px;
+  border-color: orange;
+  border-radius: 7px;
+  border-style: solid;
+  box-shadow: 0 3px 12px 1px gray;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-left: 10px;
 }
-.order-now {
-  position: relative;
-  line-height: 60px;
-  font-weight: 800;
+
+#bonuses {
+  font-weight: 900;
+  font-size: 45px;
+  margin-top: 45px;
+  margin-bottom: 50px;
+  color: #d8242b;
 }
-.order-now-wrapper {
-  text-decoration: none;
-  position: absolute;
-  top: 272px;
-  left: calc(50% - 150px);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: var(--br-10xs);
-  background-color: var(--color-orange-200);
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: var(--padding-xs) 50px;
-  font-size: var(--font-size-15xl);
-  color: inherit;
+
+#tapsub {
+  margin-top: 35px;
+  font-size: 18px;
+  font-weight: 350;
+  line-height: 30px;
+  margin-bottom: -20px;
 }
-.original-price-497 {
-  top: 117px;
-  left: calc(50% - 147px);
-  line-height: 60px;
-  width: 295px;
+
+#tap {
+  margin-top: 30px;
+  font-size: 45px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
 }
-.original-price-497,
-.the-answered-prayer1,
-.the-holy-way {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+#o {
+  font-size: 30px;
+  margin-top: 30px;
 }
-.the-answered-prayer1 {
-  top: 382px;
-  left: calc(50% - 154px);
-  line-height: 60px;
-  font-weight: 800;
-  width: 309px;
+
+#yours {
+  color: #0d9901;
+  font-size: 35px;
+  margin-top: 13px;
 }
-.the-holy-way {
-  top: 448px;
-  left: calc(50% - 150px);
-  font-size: 14px;
-  width: 297px;
+
+#point1 {
+  max-width: 400px;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
-.ee97a0ac892-tap-arrowforlp-icon {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 125px);
-  width: 250px;
-  height: 119.4px;
-  object-fit: cover;
+
+#point2 {
+  max-width: 400px;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
-.yours-today-for1 {
-  top: 2386px;
-  left: calc(50% - 146px);
-  line-height: 35px;
-  font-weight: 800;
-  color: var(--color-green);
-  width: 292px;
+
+#point3 {
+  max-width: 400px;
+  margin-top: 60px;
+  margin-bottom: 30px;
 }
-.order-now-container,
-.original-price-4971,
-.yours-today-for1 {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.order-now-container {
-  text-decoration: none;
-  top: 2475px;
-  left: calc(50% - 155px);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: var(--br-10xs);
-  background-color: var(--color-orange-200);
-  overflow: hidden;
-  flex-direction: row;
-  padding: var(--padding-xs) var(--padding-36xl);
-  font-size: var(--font-size-15xl);
-  color: inherit;
-}
-.original-price-4971 {
-  top: 2320px;
-  left: calc(50% - 147px);
-  line-height: 60px;
-  width: 295px;
-}
-.ee97a0ac892-tap-arrowforlp-icon1 {
-  position: absolute;
-  top: 2203px;
-  left: calc(50% - 125px);
-  width: 250px;
-  height: 119.4px;
-  object-fit: cover;
-}
-.yours-today-for2 {
-  top: 3437px;
-  left: calc(50% - 146px);
-  line-height: 35px;
-  font-weight: 800;
-  color: var(--color-green);
-  width: 292px;
-}
-.order-now-frame,
-.original-price-4972,
-.yours-today-for2 {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.order-now-frame {
-  text-decoration: none;
-  top: 3526px;
-  left: calc(50% - 155px);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: var(--br-10xs);
-  background-color: var(--color-orange-200);
-  overflow: hidden;
-  flex-direction: row;
-  padding: var(--padding-xs) var(--padding-36xl);
-  font-size: var(--font-size-15xl);
-  color: inherit;
-}
-.original-price-4972 {
-  top: 3371px;
-  left: calc(50% - 147px);
-  line-height: 60px;
-  width: 295px;
-}
-.ee4e8020feb-theansweredprayerb-icon,
-.ee97a0ac892-tap-arrowforlp-icon2 {
-  position: absolute;
-  top: 3254px;
-  left: calc(50% - 125px);
-  width: 250px;
-  height: 119.4px;
-  object-fit: cover;
-}
-.ee4e8020feb-theansweredprayerb-icon {
-  top: 532px;
-  height: 330.8px;
-}
-.heres-your-exclusive {
-  position: absolute;
-  top: 896px;
-  left: calc(50% - 157px);
-  font-size: 27px;
-  font-weight: 800;
-  color: #e03f45;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 314px;
-}
-.delay-child,
-.delay-item {
-  position: absolute;
-  top: 993px;
-  left: calc(50% - 154px);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: var(--br-10xs);
-  background-color: var(--color-white);
-  border: 3px solid var(--color-orange-100);
-  box-sizing: border-box;
-  width: 308px;
-  height: 569px;
-}
-.delay-item {
-  top: 1576px;
-  height: 602px;
-}
-.divine-healing-prayer,
-.the-lord-is {
-  position: absolute;
-  top: 1009px;
-  left: calc(50% - 154px);
-  font-size: var(--font-size-11xl);
-  font-weight: 800;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 309px;
-}
-.the-lord-is {
-  top: 1117px;
-  left: calc(50% - 133px);
-  font-size: var(--font-size-base);
-  font-weight: 600;
-  width: 266px;
-}
-.blank-line {
-  margin-block-start: 0;
-  margin-block-end: 3px;
-}
-.when-you-listen {
-  margin: 0;
-}
-.divine-healing-prayer-container1 {
+
+#order {
+  background-color: orange;
+  border: 0px;
+  line-height: 90px;
   width: 100%;
+  border-radius: 7px;
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  font-weight: 900;
+  box-shadow: 0 3px 12px 1px gray;
+  margin-top: 35px;
+  margin-bottom: 50px;
 }
-.divine-healing-prayer-container,
-.sacred-gods-divinity {
-  position: absolute;
-  top: 1224px;
-  left: calc(50% - 136px);
-  font-size: var(--font-size-base);
-  display: flex;
-  align-items: center;
-  width: 273px;
-}
-.sacred-gods-divinity {
-  top: 1594px;
-  left: calc(50% - 148px);
-  font-size: var(--font-size-11xl);
-  font-weight: 800;
-  justify-content: center;
-  width: 296px;
-}
-.sacred-gods-divinity-container,
-.the-lord-goes {
-  position: absolute;
-  top: 1785px;
-  left: calc(50% - 133px);
-  font-size: var(--font-size-base);
-  display: flex;
-  align-items: center;
-  width: 267px;
-}
-.the-lord-goes {
-  top: 1702px;
-  left: calc(50% - 140px);
-  font-weight: 500;
-  justify-content: center;
-  width: 280px;
-}
-.delay-inner {
-  position: absolute;
-  top: 2638px;
-  left: calc(50% - 155px);
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 6px;
-  background-color: #feeeb6;
-  width: 309px;
-  height: 582px;
-}
-.the-holy-90-day {
-  position: absolute;
-  top: 2747px;
-  left: calc(50% - 149px);
-  font-size: 23px;
-  font-weight: 800;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 298px;
-}
-.try-the-answered {
-  font-family: var(--font-poppins);
-}
-.try-the-answered-container {
-  position: absolute;
-  top: 2842px;
-  left: calc(50% - 144px);
-  font-size: var(--font-size-base);
-  display: flex;
-  align-items: center;
-  width: 289px;
-}
-.money-back-guarantee-graphic {
-  position: absolute;
-  top: 2590px;
-  left: calc(50% - 75px);
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-}
-.delay {
-  position: absolute;
-  top: 819px;
-  left: calc(50% - 157px);
-  width: 314px;
-  height: 3610px;
-  font-size: var(--font-size-9xl);
-}
-.terms-conditions1 {
-  text-decoration: underline;
-}
-.terms-conditions {
-  color: inherit;
-}
-.results-from-our-container {
-  width: 305px;
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-}
-.results-from-our-programs-met-wrapper {
-  position: absolute;
-  width: calc(100% - 1px);
-  right: 0.5px;
-  bottom: 0;
-  left: 0.5px;
-  background-color: var(--color-black);
-  overflow: hidden;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding: 18px 0;
-  box-sizing: border-box;
-  font-size: 10px;
-  color: var(--color-white);
-}
-.the-answered-prayer {
-  width: 100%;
-  position: relative;
-  background-color: var(--color-white);
-  height: 5006px;
-  overflow: hidden;
+
+#top {
   text-align: center;
-  font-size: var(--font-size-7xl);
-  color: var(--color-black);
-  font-family: var(--font-poppins);
+  font-family: "Poppins", sans-serif;
+  font-weight: 1000;
+  margin-top: 40px;
+  justify-items: center;
+  min-width: none;
+  max-width: 1500px;
 }
+
+#vsl {
+  justify-content: center;
+  max-width: 550px;
+}
+
+#wistia_responsive_padding {
+  padding: 56.25% 0 0 0;
+  position: relative;
+}
+
+.wistia_responsive_wrapper {
+  height: 100%;
+  left: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 3px 12px 1px gray;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+
+#hide {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+#guarantee {
+  text-align: center;
+  margin-top: 100px;
+  box-shadow: 0 3px 22px 0px rgb(184, 184, 184);
+  border-radius: 12px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 450px;
+  background-color: #feeeb6;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  justify-content: center;
+  bottom: 0;
+  margin-top: 90px;
+}
+
+#claim {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
