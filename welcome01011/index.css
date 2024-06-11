@@ -36,12 +36,24 @@
 
 #bullet-d {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
+  margin-top: 30px;
 }
 
 #bullet-a {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+ul#bullet-d {
+  list-style: none;
+}
+
+ul#bullet-d li {
+  background-image: url(./img/error-fill.png);
+  background-repeat: no-repeat;
+  background-position: left center;
 }
 
 #f-h2 {
