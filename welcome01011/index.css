@@ -34,9 +34,14 @@
   line-height: 50px;
 }
 
-#bullet {
+#bullet-d {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
+}
+
+#bullet-a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 #f-h2 {
