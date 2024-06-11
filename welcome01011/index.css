@@ -37,19 +37,39 @@
 #bullet-d {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  margin-top: 30px;
+}
+
+ul#bullet-d {
+  list-style: none; /* Removes default bullets */
+  padding-left: 0px;
+}
+
+ul#bullet-d li {
+  background-image: url("./img/error-fill.png"); /* Path to custom bullet icon */
+  background-repeat: no-repeat; /* Prevent icon from repeating */
+  background-position: left center;
+  background-size: 20px 20px;
+  padding-left: 30px;
+  background-position: 0 14%;
 }
 
 #bullet-a {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  margin-top: 30px;
 }
 
-ul#bullet-d li {
-  background-image: url(./img/error-fill.png);
-  background-repeat: no-repeat;
+ul#bullet-a {
+  list-style: none; /* Removes default bullets */
+  padding-left: 0px;
+}
+
+ul#bullet-a li {
+  background-image: url("./img/check-circle-fill.png"); /* Path to custom bullet icon */
+  background-repeat: no-repeat; /* Prevent icon from repeating */
   background-position: left center;
+  background-size: 20px 20px;
+  padding-left: 30px;
+  background-position: 0 14%;
 }
 
 #f-h2 {
@@ -89,6 +109,15 @@ ul#bullet-d li {
   border-radius: 4px;
   box-shadow: 0 1px 3px 1px gray;
   margin-top: 15px;
+  margin: 0;
+}
+
+#f-image-box {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #top-line {
@@ -147,7 +176,6 @@ ul#bullet-d li {
   box-shadow: 0 3px 12px 1px gray;
   justify-content: center;
   box-sizing: border-box;
-  cursor: pointer;
 }
 
 #yt {
