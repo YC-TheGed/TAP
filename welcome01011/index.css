@@ -46,10 +46,6 @@
   margin-top: 30px;
 }
 
-ul#bullet-d {
-  list-style: none;
-}
-
 ul#bullet-d li {
   background-image: url(./img/error-fill.png);
   background-repeat: no-repeat;
