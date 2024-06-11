@@ -51,7 +51,7 @@ ul#bullet-d {
 }
 
 ul#bullet-d li {
-  background-image: url(./img/error-fill.png) no-repeat left center / 20px 20px;
+  background-image: url(./img/error-fill.png);
   background-repeat: no-repeat;
   background-position: left center;
 }
